@@ -1,20 +1,35 @@
 {
   "files": {
     "main.css": "/mediply-v2/static/css/main.6d1b9947.chunk.css",
-    "main.js": "/mediply-v2/static/js/main.2783f192.chunk.js",
-    "main.js.map": "/mediply-v2/static/js/main.2783f192.chunk.js.map",
+    "main.js": "/mediply-v2/static/js/main.83209ec0.chunk.js",
+    "main.js.map": "/mediply-v2/static/js/main.83209ec0.chunk.js.map",
     "runtime-main.js": "/mediply-v2/static/js/runtime-main.82a325d1.js",
     "runtime-main.js.map": "/mediply-v2/static/js/runtime-main.82a325d1.js.map",
-    "static/js/2.c853a17d.chunk.js": "/mediply-v2/static/js/2.c853a17d.chunk.js",
-    "static/js/2.c853a17d.chunk.js.map": "/mediply-v2/static/js/2.c853a17d.chunk.js.map",
+    "static/js/2.aff39fb7.chunk.js": "/mediply-v2/static/js/2.aff39fb7.chunk.js",
+    "static/js/2.aff39fb7.chunk.js.map": "/mediply-v2/static/js/2.aff39fb7.chunk.js.map",
     "index.html": "/mediply-v2/index.html",
     "static/css/main.6d1b9947.chunk.css.map": "/mediply-v2/static/css/main.6d1b9947.chunk.css.map",
-    "static/js/2.c853a17d.chunk.js.LICENSE.txt": "/mediply-v2/static/js/2.c853a17d.chunk.js.LICENSE.txt"
+    "static/js/2.aff39fb7.chunk.js.LICENSE.txt": "/mediply-v2/static/js/2.aff39fb7.chunk.js.LICENSE.txt",
+    "static/media/Mediply-logo-02.84cfd68b.png": "/mediply-v2/static/media/Mediply-logo-02.84cfd68b.png",
+    "static/media/citroh.png": "/mediply-v2/static/media/citroh.78c9929a.png",
+    "static/media/comfortchair.png": "/mediply-v2/static/media/comfortchair.138b334c.png",
+    "static/media/diaclean.png": "/mediply-v2/static/media/diaclean.9b260676.png",
+    "static/media/dialyzer.png": "/mediply-v2/static/media/dialyzer.ff07090f.png",
+    "static/media/dora.png": "/mediply-v2/static/media/dora.19d24e03.png",
+    "static/media/ferobest.png": "/mediply-v2/static/media/ferobest.4f7b0437.png",
+    "static/media/fistulaneedle.png": "/mediply-v2/static/media/fistulaneedle.9af92589.png",
+    "static/media/fresenius.png": "/mediply-v2/static/media/fresenius.0cc25ea7.png",
+    "static/media/hemant-logo-01.0ad918a4.png": "/mediply-v2/static/media/hemant-logo-01.0ad918a4.png",
+    "static/media/hemodialysis.png": "/mediply-v2/static/media/hemodialysis.77ed9254.png",
+    "static/media/hepabest.png": "/mediply-v2/static/media/hepabest.8c05e435.png",
+    "static/media/meditape.png": "/mediply-v2/static/media/meditape.4fa7dbcb.png",
+    "static/media/transducer.png": "/mediply-v2/static/media/transducer.737d1ee2.png",
+    "static/media/tubingset.png": "/mediply-v2/static/media/tubingset.ae4a1161.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82a325d1.js",
-    "static/js/2.c853a17d.chunk.js",
+    "static/js/2.aff39fb7.chunk.js",
     "static/css/main.6d1b9947.chunk.css",
-    "static/js/main.2783f192.chunk.js"
+    "static/js/main.83209ec0.chunk.js"
   ]
 }
