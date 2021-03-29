@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, HashRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import './index.css';
 
 import Landing from './views/Landing.jsx';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/" component={Landing} />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
