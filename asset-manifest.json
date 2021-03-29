@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d1b9947.chunk.css",
-    "main.js": "/static/js/main.e2ff261d.chunk.js",
-    "main.js.map": "/static/js/main.e2ff261d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1ab983c0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1ab983c0.js.map",
-    "static/js/2.c011bb12.chunk.js": "/static/js/2.c011bb12.chunk.js",
-    "static/js/2.c011bb12.chunk.js.map": "/static/js/2.c011bb12.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6d1b9947.chunk.css.map": "/static/css/main.6d1b9947.chunk.css.map",
-    "static/js/2.c011bb12.chunk.js.LICENSE.txt": "/static/js/2.c011bb12.chunk.js.LICENSE.txt"
+    "main.css": "/mediply-v2/static/css/main.6d1b9947.chunk.css",
+    "main.js": "/mediply-v2/static/js/main.2783f192.chunk.js",
+    "main.js.map": "/mediply-v2/static/js/main.2783f192.chunk.js.map",
+    "runtime-main.js": "/mediply-v2/static/js/runtime-main.82a325d1.js",
+    "runtime-main.js.map": "/mediply-v2/static/js/runtime-main.82a325d1.js.map",
+    "static/js/2.c853a17d.chunk.js": "/mediply-v2/static/js/2.c853a17d.chunk.js",
+    "static/js/2.c853a17d.chunk.js.map": "/mediply-v2/static/js/2.c853a17d.chunk.js.map",
+    "index.html": "/mediply-v2/index.html",
+    "static/css/main.6d1b9947.chunk.css.map": "/mediply-v2/static/css/main.6d1b9947.chunk.css.map",
+    "static/js/2.c853a17d.chunk.js.LICENSE.txt": "/mediply-v2/static/js/2.c853a17d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ab983c0.js",
-    "static/js/2.c011bb12.chunk.js",
+    "static/js/runtime-main.82a325d1.js",
+    "static/js/2.c853a17d.chunk.js",
     "static/css/main.6d1b9947.chunk.css",
-    "static/js/main.e2ff261d.chunk.js"
+    "static/js/main.2783f192.chunk.js"
   ]
 }
