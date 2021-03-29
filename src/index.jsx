@@ -7,10 +7,12 @@ import './index.css';
 import Landing from './views/Landing.jsx';
 
 ReactDOM.render(
-  <HashRouter>
-    <Switch>
-      <Route path="/" component={Landing} />
-    </Switch>
-  </HashRouter>,
+  <React.StrictMode>
+    <HashRouter>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+      </Switch>
+    </HashRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );

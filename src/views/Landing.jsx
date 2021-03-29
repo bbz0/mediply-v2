@@ -1,11 +1,15 @@
 import React from 'react';
-import products from '../assets/products.json';
+
+import mediplyLogo from '../assets/logo/Mediply-logo-02.png';
+import hemantLogo from '../assets/logo/hemant-logo-01.png';
+
+import productsObj from '../assets/products.json';
 
 class Product extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      products: products,
+      products: productsObj,
     };
   }
 
@@ -13,7 +17,7 @@ class Product extends React.Component {
     const products = this.state.products.map((product, i) => {
       return (
         <div className="w-full mb-6 border-2 border-blue rounded-lg shadow-lg" key={product.name}>
-          <img className="mx-auto my-6 h-60 px-6" src={product.file} alt={product.name} />
+          <img className="mx-auto my-6 h-60 px-6" src={require("../assets/product/" + product.file).default} alt={product.name} />
           <div className="p-4 h-32 bg-blue">
             <h5 className="text-2xl text-blue-100 font-extrabold">{product.name}</h5>
           </div>
@@ -31,10 +35,10 @@ export default function Landing() {
       <div className="container mx-auto h-full px-6 mt-8">
         <div className="flex flex-wrap">
           <div className="w-full sm:w-1/2 mb-6">
-            <img className="w-1/2 max-w-xs mx-auto" src="/assets/logo/Mediply-logo-02.png" alt="Mediply Logo"/>
+            <img className="w-1/2 max-w-xs mx-auto" src={mediplyLogo} alt="Mediply Logo"/>
           </div>
           <div className="w-full sm:w-1/2">
-            <img className="w-3/4 max-w-md mx-auto" src="/assets/logo/hemant-logo-01.png" alt="Hemant Logo"/>
+            <img className="w-3/4 max-w-md mx-auto" src={hemantLogo} alt="Hemant Logo"/>
           </div>
         </div>
         <h1 className="my-14 text-center text-4xl sm:text-5xl lg:text-6xl text-blue font-extrabold tracking-tight">

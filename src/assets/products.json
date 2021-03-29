@@ -1,54 +1,54 @@
 [
   {
     "name": "Citro H",
-    "file": "/assets/product/citroh.png"
+    "file": "citroh.png"
   },
   {
     "name": "Comfort Dialysis Chair",
-    "file": "/assets/product/comfortchair.png"
+    "file": "comfortchair.png"
   },
   {
     "name": "Diaclean Cold Sterilant",
-    "file": "/assets/product/diaclean.png"
+    "file": "diaclean.png"
   },
   {
     "name": "Diaclean Dialyzer Reprocessor",
-    "file": "/assets/product/dialyzer.png"
+    "file": "dialyzer.png"
   },
   {
     "name": "Dora Dialyzer",
-    "file": "/assets/product/dora.png"
+    "file": "dora.png"
   },
   {
     "name": "Ferobest - Iron Sucrose Injection USP",
-    "file": "/assets/product/ferobest.png"
+    "file": "ferobest.png"
   },
   {
     "name": "Aeromed A. V. Fistula Needle Set",
-    "file": "/assets/product/fistulaneedle.png"
+    "file": "fistulaneedle.png"
   },
   {
     "name": "Fresenius 4008H/ 4008S Hemodialysis Machine",
-    "file": "/assets/product/fresenius.png"
+    "file": "fresenius.png"
   },
   {
     "name": "Conc. Hemodialysis Solution B. P.",
-    "file": "/assets/product/hemodialysis.png"
+    "file": "hemodialysis.png"
   },
   {
     "name": "Hepabest - Heparin Sodium Injection I. P.",
-    "file": "/assets/product/hepabest.png"
+    "file": "hepabest.png"
   },
   {
     "name": "Medi-tape 300 Series",
-    "file": "/assets/product/meditape.png"
+    "file": "meditape.png"
   },
   {
     "name": "Transducer Protector",
-    "file": "/assets/product/transducer.png"
+    "file": "transducer.png"
   },
   {
     "name": "Aero Hemodialysis Blood Tubing Set",
-    "file": "/assets/product/tubingset.png"
+    "file": "tubingset.png"
   }
 ]
