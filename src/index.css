@@ -1,4 +1,19 @@
 
 @tailwind base;
+
+@layer base {
+  ol {
+		@apply list-decimal;
+		@apply list-inside;
+	}
+	ul {
+		@apply list-disc;
+		@apply list-inside;
+	}
+  li ul {
+    @apply ml-4
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
