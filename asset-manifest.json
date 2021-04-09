@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5cb7e09c.chunk.css",
-    "main.js": "/static/js/main.69554a37.chunk.js",
-    "main.js.map": "/static/js/main.69554a37.chunk.js.map",
+    "main.js": "/static/js/main.4600ff15.chunk.js",
+    "main.js.map": "/static/js/main.4600ff15.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab983c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab983c0.js.map",
     "static/js/2.a5ac1287.chunk.js": "/static/js/2.a5ac1287.chunk.js",
@@ -55,7 +55,7 @@
     "static/media/monnal-t75.jpg": "/static/media/monnal-t75.a34bbfbe.jpg",
     "static/media/nikkiso-hemodialysis.jpg": "/static/media/nikkiso-hemodialysis.403e264c.jpg",
     "static/media/orion-g-ventilator.jpg": "/static/media/orion-g-ventilator.fc2d812a.jpg",
-    "static/media/sodium injection.jpg": "/static/media/sodium injection.5972af47.jpg",
+    "static/media/sodium-injection.jpg": "/static/media/sodium-injection.5972af47.jpg",
     "static/media/sucrose-injection.jpg": "/static/media/sucrose-injection.c971a315.jpg",
     "static/media/transducer-protector.jpg": "/static/media/transducer-protector.3db6b421.jpg",
     "static/media/transfusion-buret.jpg": "/static/media/transfusion-buret.63eef76f.jpg",
@@ -68,6 +68,6 @@
     "static/js/runtime-main.1ab983c0.js",
     "static/js/2.a5ac1287.chunk.js",
     "static/css/main.5cb7e09c.chunk.css",
-    "static/js/main.69554a37.chunk.js"
+    "static/js/main.4600ff15.chunk.js"
   ]
 }
