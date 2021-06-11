@@ -35,7 +35,7 @@ export default function About() {
           About Us
         </h1>
         <div className="mx-auto lg:w-3/4 xl:w-1/2 mb-12 leading-relaxed text-gray-700">
-          <p className="mb-4"><strong>MEDIPLY</strong> is a company that specializes in setting up turn-key Hemodialysis Centers since 2013. It currently has an exclusive partnership with <strong>HEMANT SURGICAL India</strong>, a leading importer, exporter and manufacturer of Health Care products since 1985. Hemant is an ISO, CE and GMP certified company.</p>
+          <p className="mb-4"><strong>MEDIPLY</strong> is a company that specializes in setting up turn-key Hemodialysis Centers since 2013. It currently has an exclusive partnership with <a className="text-blue" target="_blank" href="https://www.hemantsurgical.com/" rel="noreferrer"><strong>HEMANT SURGICAL INDUSTRIES LTD.</strong></a>, a leading importer, exporter and manufacturer of Health Care products since 1985. Hemant is an ISO, CE and GMP certified company.</p>
           <p>Mediply Inc. is the principal distributor of their products in the Philippines and USA.</p>
         </div>
         <div className="mb-6 py-3 border-b-2 border-blue">

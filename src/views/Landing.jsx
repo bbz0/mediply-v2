@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Transition } from '@headlessui/react';
 
 import Header from '../components/Header';
 import Products from '../components/Products';

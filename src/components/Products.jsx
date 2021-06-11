@@ -29,26 +29,46 @@ export default class Products extends React.Component {
   }
 
   render() {
+    let productsJson = this.state.products;
+    let categorized = {
+      aero: [],
+      JMS: [],
+      renalcare: []
+    };
+
+    for (let i = 0; i < productsJson.length; i++) {
+      let category = productsJson[i].productCategory;
+      if (category === 'jms') {
+        category = 'JMS';
+      }
+
+      categorized[category].push(productsJson[i]);
+    }
+
     const setSelectedProduct = this.state.setSelectedProduct;
-    const products = this.state.products.map((product, i) => {
+    const allProducts = Object.keys(categorized).map((category, i) => {
+      let products = categorized[category].map((product, i) => {
+        return (
+          <Product 
+            key={product.productName}
+            productData={product} 
+            onClick={setSelectedProduct}
+          />
+        );
+      });
+
       return (
-        <Product 
-          key={product.productName}
-          productData={product} 
-          onClick={setSelectedProduct}
-        />
+        <div className="Products">
+          <div className="mb-6 py-3 border-b-2 border-blue">
+            <h5 className="text-3xl text-red-700 font-extrabold capitalize">{category} Products</h5>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+            {products}
+          </div>
+        </div>
       );
     });
 
-    return (
-      <div className="Products">
-        <div className="mb-6 py-3 border-b-2 border-blue">
-          <h5 className="text-2xl text-blue font-extrabold">Our Products</h5>
-        </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {products}
-        </div>
-      </div>
-    );
+    return allProducts;
   }  
 }

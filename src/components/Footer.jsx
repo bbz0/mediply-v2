@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-wrap">
           <div className="mb-6 w-full sm:w-1/2 lg:w-1/3">
             <h6 className="text-md text-blue-100 font-medium">Address</h6>
-            <span className="text-md text-blue-100 font-bold">20 Empress Road, Bgy. San Isidro <br />Antipolo City</span>
+            <span className="text-md text-blue-100 font-bold">Unit 2E<br /> WESTLAKE BUILDING<br /> Pasig Boulevard <br />Pasig City</span>
           </div>
 
           <div className="mb-6 w-full sm:w-1/2 lg:w-1/3">
