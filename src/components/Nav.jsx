@@ -22,6 +22,13 @@ export default function Nav() {
           >
             About
           </NavLink>
+          <a
+            className="w-full sm:w-min px-3 py-3 text-center font-extrabold mb-3 sm:mb-0 rounded-lg" 
+            href="https://tour.mediplyhemant.com/" 
+            target="_blank" rel="noreferrer"
+          >
+            Tour
+          </a>
         </div>
       </div>
     </nav>
