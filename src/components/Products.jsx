@@ -32,7 +32,7 @@ export default class Products extends React.Component {
     let productsJson = this.state.products;
     let categorized = {
       aero: [],
-      JMS: [],
+      // JMS: [],
       renalcare: []
     };
 
